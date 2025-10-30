@@ -12,23 +12,23 @@ The dataset includes 3,150 records containing demographic and service-related de
 Churn Distribution
 The dataset shows a class imbalance, where only a small percentage of customers have churned.
 Image: churn_distribution.png
-![Churn Distribution](images/Churn_Distribution.png)
+![Churn Distribution](Images/Churn_Distribution.png)
 
 3. Exploratory Data Analysis (EDA)
 Feature distributions were analyzed to understand customer behavior patterns. Most customers have low call failures and moderate subscription lengths, while a small group of heavy users stands out.
 Image: feature_distribution.png
-![Feature Distribution](images/Feature_Distribution.png)
+![Feature Distribution](Images/Feature_Distribution.png)
 
 4. Correlation Analysis
 A correlation matrix was used to identify relationships between variables. Complaints, Status, and Charge Amount show the strongest correlation with churn, while higher Customer Value reduces the likelihood of leaving.
 Image: correlation_matrix.png
-![Correlation Matrix](images/correlation_matrix_heatmap.png)
+![Correlation Matrix](Images/correlation_matrix_heatmap.png)
 
 5. Data Preprocessing
 Data cleaning steps included handling duplicates, treating outliers, and encoding categorical features.
 Outliers were capped at the 1st and 99th percentiles, and log transformations were applied to skewed variables.
 Image: outlier_boxplot.png
-![Outlier Boxplot](images/Outlier_Boxplot.png)
+![Outlier Boxplot](Images/Outlier_Boxplot.png)
 
 6. Model Development
 Four models were trained and evaluated based on accuracy, precision, recall, and F1-score.
@@ -41,7 +41,7 @@ The Random Forest model performed best overall with 93% accuracy.
 ROC Curve
 The ROC curve below shows Random Forest achieving the best performance among all models.
 Image: roc_curve.png
-![ROC Curve](images/ROC.png)
+![ROC Curve](Images/ROC.png)
 
 7. Key Insights
 •	Customers with frequent complaints are more likely to churn.
